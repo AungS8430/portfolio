@@ -56,7 +56,7 @@ export default function RootLayout({
 								<span><Link href="https://nextui.org"><Code color="primary">NextUI</Code></Link> Beautiful, fast and modern React UI library.</span>
 								<span><Link href="https://github.com/SoloReverse/nextjs-simple-typewriter"><Code color="primary">NextJs Simple Typewriter</Code></Link> Fork of <Link href="https://github.com/awran5/react-simple-typewriter">React Simple Typewriter</Link> with Next.js compability.</span>
 								<span><Link href="https://icons8.com/"><Code color="primary">Icons8</Code></Link> Provider of icons used in this website, this includes <Link href="https://icons8.com/icon/14h574ySQ7kG/fiverr">Fiverr</Link>.</span>
-								<span><Link href="https://icons8.com/"><Code color="primary">Iconfinder</Code></Link> Provider of 3d illustrations used in this website.</span>
+								<span><Link href="https://www.iconfinder.com/"><Code color="primary">Iconfinder</Code></Link> Provider of 3d illustrations used in this website.</span>
 							</Snippet>
 						</footer>
 					</div>
