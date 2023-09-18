@@ -1,27 +1,11 @@
-# Next.js & NextUI Template
+# AungS8430's Portfolio Website
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
-
-## Technologies Used
-
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+Portfolio website for AungS8430, fell free to use and customise this. Leaving credits will also helps me a lot!
 
 ## How to Use
 
 
 ### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
 
 ### Install dependencies
 
@@ -37,4 +21,5 @@ npm run dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+
+Licensed under the [MIT license](https://github.com/AungS8430/portfolio/blob/main/LICENSE).
