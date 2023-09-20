@@ -23,7 +23,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { Button } from "@nextui-org/button";
 
 export default function Home() {
-	const [state, handleSubmit] = useForm(process.env.FORMSPREE);
+	const [state, handleSubmit] = useForm(process.env.FORMSPREE!);
 	if (state.succeeded) {
 		return (
 			<div className="py-8 pt-0 flex flex-col gap-8 items-center justify-center text-center">
