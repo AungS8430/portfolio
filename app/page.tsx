@@ -27,7 +27,7 @@ export default function Home() {
 	if (state.succeeded) {
 		return (
 			<div className="py-8 pt-0 flex flex-col gap-8 items-center justify-center text-center">
-				<h1 className={title()}>Thanks for reaching out!<br />I'll reply as soon as I'm available.</h1>
+				<h1 className={title()}>Thanks for reaching out!<br />I&apos;ll reply as soon as I&apos;m available.</h1>
 				<Link href="/" aria-label="contact">
 					<Button color="primary" variant="solid" size="lg"><b className="text-xl">Go back</b></Button>
 				</Link>
@@ -135,7 +135,7 @@ export default function Home() {
 				<section className="flex flex-col sm:flex-row items-start justify-start text-start gap-4 w-full mx-0">
 					<section className="flex flex-col items-start justify-start text-start gap-4 w-full mx-0">
 						<h1 className={title()}>Contact me!</h1>
-						<h2 className={subtitle()}>You can send me an Email and I'll respond as soon as I am available, or fill in the form and I'll reach you out!<br /><b>Email:</b> <Link isExternal href="mailto:contact@aungs.eu.org" showAnchorIcon>contact@aungs.eu.org</Link></h2>
+						<h2 className={subtitle()}>You can send me an Email and I&apos;ll respond as soon as I am available, or fill in the form and I&apos;ll reach you out!<br /><b>Email:</b> <Link isExternal href="mailto:contact@aungs.eu.org" showAnchorIcon>contact@aungs.eu.org</Link></h2>
 					</section>
 					<section className="w-full">
 						<form onSubmit={handleSubmit} className="w-full gap-2 flex flex-col">
@@ -164,7 +164,7 @@ export default function Home() {
 								type="text"
 								name="message"
 								label="Message"
-								placeholder="Hi! I'd like to..."
+								placeholder="Hi! I&apos;d like to..."
 								labelPlacement="inside"
 								isInvalid={state.errors}
 								isRequired
