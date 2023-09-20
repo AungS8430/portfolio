@@ -145,7 +145,7 @@ export default function Home() {
 								name="name"
 								placeholder="John Doe"
 								labelPlacement="inside"
-								isInvalid={state.errors}
+								isInvalid={!!state.errors}
 								isRequired
 							/>
 							<Input
@@ -154,7 +154,7 @@ export default function Home() {
 								label="Email"
 								placeholder="you@example.com"
 								labelPlacement="inside"
-								isInvalid={state.errors}
+								isInvalid={!!state.errors}
 								isRequired
 								endContent={
 									<MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
@@ -166,7 +166,7 @@ export default function Home() {
 								label="Message"
 								placeholder="Hi! I&apos;d like to..."
 								labelPlacement="inside"
-								isInvalid={state.errors}
+								isInvalid={!!state.errors}
 								isRequired
 							/>
 							<Button color="primary" variant="ghost" type="submit" disabled={state.submitting}><b>Send</b></Button>
