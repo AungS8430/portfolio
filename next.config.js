@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    env: {
+        FORMSPREE: process.env.FORMSPREE,
+    }
+}
 
 module.exports = nextConfig

@@ -1,7 +1,8 @@
 "use client"
 
+import React from "react";
 import NextLink from "next/link";
-import { Image, Divider, Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Image, Divider, Tabs, Tab, Card, CardBody, CardHeader, CardFooter, Skeleton, Input } from "@nextui-org/react";
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
@@ -14,12 +15,25 @@ import {
 	DiscordIcon,
 	HeartFilledIcon,
 	SearchIcon,
-	FiverrIcon
+	FiverrIcon,
+	MailIcon
 } from "@/components/icons";
 import { Typewriter } from 'nextjs-simple-typewriter';
+import { useForm, ValidationError } from '@formspree/react';
 import { Button } from "@nextui-org/button";
 
 export default function Home() {
+	const [state, handleSubmit] = useForm(process.env.FORMSPREE);
+	if (state.succeeded) {
+		return (
+			<div className="py-8 pt-0 flex flex-col gap-8 items-center justify-center text-center">
+				<h1 className={title()}>Thanks for reaching out!<br />I'll reply as soon as I'm available.</h1>
+				<Link href="/" aria-label="contact">
+					<Button color="primary" variant="solid" size="lg"><b className="text-xl">Go back</b></Button>
+				</Link>
+			</div>
+		)
+	}
 	return (
 		<div className="flex flex-col items-center justify-center">
 			<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
@@ -94,6 +108,72 @@ export default function Home() {
 				<Image src="/education.png" width={1200} height={1200} alt="Cover" className="hidden sm:flex" />
 			</section>
 			<Divider className="my-4" />
+			<section className="flex flex-row items-center text-center justify-center gap-4 max-w-4xl py-8 md:py-10 w-full" id="projects">
+				<section className="flex flex-col items-end justify-end text-end gap-4 w-full mx-0">
+					<h1 className={title()}>Projects <span className="text-stone-500">Coming soon!</span></h1>
+					<div className="w-full">
+						<div className="relative text-center">
+							<Skeleton className="relative rounded-lg w-full h-48 z-1"/>
+							<br />
+						</div>
+					</div>
+				</section>
+			</section>
+			<Divider className="my-4" />
+			<section className="flex flex-row items-center text-center justify-center gap-4 max-w-4xl py-8 md:py-10 w-full" id="services">
+				<section className="flex flex-col items-start justify-start text-start gap-4 w-full mx-0">
+					<h1 className={title()}>Services <span className="text-stone-500">Coming soon!</span></h1>
+					<div className="w-full">
+						<div className="relative text-center">
+							<Skeleton className="relative rounded-lg w-full h-48 z-1"/>
+							<br />
+						</div>
+					</div>
+				</section>
+			</section>
+			<section className="flex flex-row items-center text-center justify-center gap-4 max-w-4xl py-8 md:py-10 w-full" id="contact">
+				<section className="flex flex-col sm:flex-row items-start justify-start text-start gap-4 w-full mx-0">
+					<section className="flex flex-col items-start justify-start text-start gap-4 w-full mx-0">
+						<h1 className={title()}>Contact me!</h1>
+						<h2 className={subtitle()}>You can send me an Email and I'll respond as soon as I am available, or fill in the form and I'll reach you out!<br /><b>Email:</b> <Link isExternal href="mailto:contact@aungs.eu.org" showAnchorIcon>contact@aungs.eu.org</Link></h2>
+					</section>
+					<section className="w-full">
+						<form onSubmit={handleSubmit} className="w-full gap-2 flex flex-col">
+							<Input
+								type="text"
+								label="Name"
+								name="name"
+								placeholder="John Doe"
+								labelPlacement="inside"
+								isInvalid={state.errors}
+								isRequired
+							/>
+							<Input
+								type="email"
+								name="email"
+								label="Email"
+								placeholder="you@example.com"
+								labelPlacement="inside"
+								isInvalid={state.errors}
+								isRequired
+								endContent={
+									<MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
+								}
+							/>
+							<Input
+								type="text"
+								name="message"
+								label="Message"
+								placeholder="Hi! I'd like to..."
+								labelPlacement="inside"
+								isInvalid={state.errors}
+								isRequired
+							/>
+							<Button color="primary" variant="ghost" type="submit" disabled={state.submitting}><b>Send</b></Button>
+						</form>
+					</section>
+				</section>
+			</section>
 		</div>
 	);
 }
