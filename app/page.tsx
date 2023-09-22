@@ -97,7 +97,7 @@ export default function Home() {
 							<Tab title="2021-2015" key="pri">
 								<Card>
 									<CardBody>
-										<h1 className="text-2xl font-bold">2011-2015</h1>
+										<h1 className="text-2xl font-bold">2021-2015</h1>
 										<p>I had been studying in Saint Gabriel&apos;s College for primary school, I learnt a lot of stuffs back there, I love the I.E. classes so much that I still miss them even after I moved out in 2021.</p>
 									</CardBody>
 								</Card>
