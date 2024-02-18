@@ -16,12 +16,8 @@ import {
 	HeartFilledIcon,
 	SearchIcon,
 	FiverrIcon,
-<<<<<<< HEAD
 	MailIcon,
 	ExternalLink
-=======
-	MailIcon
->>>>>>> 1c8d81255bcbedccbb93b4f52eb5510f8931b1e3
 } from "@/components/icons";
 import { Typewriter } from 'nextjs-simple-typewriter';
 import { useForm, ValidationError } from '@formspree/react';
@@ -115,7 +111,6 @@ export default function Home() {
 			<Divider className="my-4" />
 			<section className="flex flex-row items-center text-center justify-center gap-4 max-w-4xl py-8 md:py-10 w-full" id="projects">
 				<section className="flex flex-col items-end justify-end text-end gap-4 w-full mx-0">
-<<<<<<< HEAD
 					<h1 className={title()}>Projects</h1>
 					<div className="w-full overflow-x-auto">
 						<div className="relative text-center flex flex-row w-full gap-2 w-7xl">
@@ -165,12 +160,6 @@ export default function Home() {
 									</Link>
 								</CardFooter>
 							</Card>
-=======
-					<h1 className={title()}>Projects <span className="text-stone-500">Coming soon!</span></h1>
-					<div className="w-full">
-						<div className="relative text-center">
-							<Skeleton className="relative rounded-lg w-full h-48 z-1"/>
->>>>>>> 1c8d81255bcbedccbb93b4f52eb5510f8931b1e3
 							<br />
 						</div>
 					</div>

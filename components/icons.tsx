@@ -257,7 +257,6 @@ export const NextUILogo: React.FC<IconSvgProps> = (props) => {
       />
     </svg>
   );
-<<<<<<< HEAD
 };  
 
 export const ExternalLink: React.FC<IconSvgProps> = (props) => {
@@ -267,6 +266,3 @@ export const ExternalLink: React.FC<IconSvgProps> = (props) => {
 		</svg>
   );
 }
-=======
-};  
->>>>>>> 1c8d81255bcbedccbb93b4f52eb5510f8931b1e3
