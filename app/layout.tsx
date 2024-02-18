@@ -47,7 +47,11 @@ export default function RootLayout({
 							{children}
 						</main>
 						<footer className="grid w-full items-center justify-center py-3">
+<<<<<<< HEAD
 							<p className="text-default-600 text-center">Coded with ❤️ by&nbsp;<span className="text-primary">AungS8430</span></p>
+=======
+							<p className="text-default-600 text-center">Coded by&nbsp;<span className="text-primary">AungS8430</span></p>
+>>>>>>> 1c8d81255bcbedccbb93b4f52eb5510f8931b1e3
 							<Snippet hideSymbol hideCopyButton variant="flat" className="hidden md:flex">
 								<span className="font-bold">Credits:</span>
 								<span><Link href="https://react.dev"><Code color="primary">React</Code></Link> Open-source front-end JavaScript library for building UI based on components.</span>
