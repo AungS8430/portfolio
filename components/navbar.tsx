@@ -8,13 +8,13 @@ import {
 	NavbarBrand,
 	NavbarItem,
 	NavbarMenuItem,
-} from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
-import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
+} from "@heroui/navbar";
+import { Button } from "@heroui/button";
+import { Kbd } from "@heroui/kbd";
+import { Link } from "@heroui/link";
+import { Input } from "@heroui/input";
 
-import { link as linkStyles } from "@nextui-org/theme";
+import { link as linkStyles } from "@heroui/theme";
 
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -44,7 +44,7 @@ export const Navbar = () => {
 						className="sm:hidden"
 					/>
 					<NavbarBrand as="li" className="gap-3 max-w-fit">
-						<NextLink className="flex justify-start items-center gap-1" href="/">
+						<NextLink className="flex justify-start items-center gap-1" href="#home">
 							<p className="font-bold text-inherit">AungS8430</p>
 						</NextLink>
 					</NavbarBrand>
