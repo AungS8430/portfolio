@@ -48,9 +48,9 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 				),
 			})}
 		>
-			<VisuallyHidden>
+			<span style={{ position: "absolute", width: "1px", height: "1px", margin: "-1px", padding: "0", overflow: "hidden", clip: "rect(0, 0, 0, 0)", whiteSpace: "nowrap", border: "0" }}>
 				<input {...getInputProps()} />
-			</VisuallyHidden>
+			</span>
 			<div
 				{...getWrapperProps()}
 				className={slots.wrapper({
