@@ -90,7 +90,7 @@ export default function Home() {
 								<Card>
 									<CardBody>
 										<h1 className="text-2xl font-bold">2024-Present</h1>
-										<p>Currently studying computer engineering at KOSEN-KMITL. It's kind of like an engineering school similar to Japanese KOSEN, so I get to learn Japanese as well.</p>
+										<p>Currently studying computer engineering at KOSEN-KMITL. It&apos;s kind of like an engineering school similar to Japanese KOSEN, so I get to learn Japanese as well.</p>
 									</CardBody>
 								</Card>
 							</Tab>
