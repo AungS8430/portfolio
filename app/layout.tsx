@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lora } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+import Image from "next/image";
+import background from "@/public/background.png";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const sreda = localFont({
+  src: "./fonts/Sreda.ttf",
+  variable: "--font-sreda"
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const lora = Lora({
   subsets: ["latin"],
+  variable: "--font-lora"
 });
 
 export const metadata: Metadata = {
@@ -25,9 +28,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${sreda.variable} ${lora.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col font-sreda">
+        <Image src={background} alt="Background" fill priority unoptimized sizes="100vw" style={{ objectFit: "cover", objectPosition: "center", inset: 0, zIndex: -1 }} />
+        {children}
+      </body>
     </html>
   );
 }
