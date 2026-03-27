@@ -3,32 +3,16 @@
 import {
   motion,
   useReducedMotion,
-  useScroll,
   useSpring,
   useTransform,
 } from "motion/react";
-import { useEffect, useRef, useState, type RefObject } from "react";
+import { useEffect, useRef, useState } from "react";
+import {MotionValue} from "motion";
 
-export default function Title({ containerRef }: { containerRef: RefObject<HTMLElement | null> }) {
+export default function Title({ scrollY, containerHeight }: { scrollY: MotionValue<number>, containerHeight: number }) {
   const shouldReduceMotion = useReducedMotion();
-  const { scrollY } = useScroll({ container: containerRef });
-  const [containerHeight, setContainerHeight] = useState(320);
   const [titleHeight, setTitleHeight] = useState(50);
   const titleRef = useRef<HTMLHeadingElement>(null);
-
-  useEffect(() => {
-    const element = containerRef.current;
-    if (!element) return;
-
-    const updateHeight = () => setContainerHeight(Math.max(element.clientHeight, 1));
-
-    updateHeight();
-
-    const observer = new ResizeObserver(updateHeight);
-    observer.observe(element);
-
-    return () => observer.disconnect();
-  }, [containerRef]);
 
   useEffect(() => {
     const element = titleRef.current;
