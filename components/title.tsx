@@ -3,7 +3,6 @@
 import {
   motion,
   useReducedMotion,
-  useSpring,
   useTransform,
 } from "motion/react";
 import { useEffect, useRef, useState } from "react";
@@ -30,13 +29,9 @@ export default function Title({ scrollY, containerHeight }: { scrollY: MotionVal
 
   const progress = useTransform(scrollY, [0, containerHeight - 300], [0, 1], { clamp: true });
 
-  const yRaw = useTransform(progress, [0, 1], [0, -containerHeight + titleHeight]);
-  const scaleRaw = useTransform(progress, [0, 1], [1, 0.5]);
-  const opacityRaw = useTransform(progress, [0.7, 0.8], [1, 0]);
-
-  const y = useSpring(yRaw, { stiffness: 1000, damping: 100, mass: 1 });
-  const scale = useSpring(scaleRaw, { stiffness: 1000, damping: 100, mass: 1 });
-  const opacity = useSpring(opacityRaw, { stiffness: 1000, damping: 100, mass: 1 });
+  const y = useTransform(progress, [0, 1], [0, -containerHeight + titleHeight]);
+  const scale = useTransform(progress, [0, 1], [1, 0.5]);
+  const opacity = useTransform(progress, [0.7, 0.8], [1, 0]);
 
   return (
     <div className="w-full h-full flex flex-col sticky top-0 justify-end">
@@ -44,7 +39,7 @@ export default function Title({ scrollY, containerHeight }: { scrollY: MotionVal
         className="font-sans text-md md:text-xl lg:text-3xl text-end absolute top-0 right-0 text-foreground/90 text-balance"
         style={
           shouldReduceMotion ? undefined : {
-            opacity: opacity,
+            opacity,
             transformOrigin: "top right",
             willChange: "transform"
           }
