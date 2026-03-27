@@ -29,7 +29,7 @@ export default function Title({ scrollY, containerHeight }: { scrollY: MotionVal
 
   const progress = useTransform(scrollY, [0, containerHeight - 300], [0, 1], { clamp: true });
 
-  const y = useTransform(progress, [0, 1], [0, -containerHeight + titleHeight]);
+  const y = useTransform(progress, [0, 1], [0, -containerHeight + titleHeight + 50]);
   const scale = useTransform(progress, [0, 1], [1, 0.5]);
   const opacity = useTransform(progress, [0.7, 0.8], [1, 0]);
 
