@@ -5,6 +5,7 @@ import {
   useScroll,
 } from "motion/react";
 import Title from "@/components/title";
+import About from "@/components/about";
 
 export default function ScrollPane() {
   const [containerHeight, setContainerHeight] = useState(350);
@@ -26,14 +27,14 @@ export default function ScrollPane() {
   }, [containerRef]);
 
   return (
-    <div ref={containerRef} className="w-full h-full min-h-0 flex flex-col overflow-y-auto no-scrollbar">
-      <section id="home" className="h-full shrink-0 sticky top-0 overflow-y-auto no-scrollbar">
+    <div ref={containerRef} className="w-full h-full min-h-0 flex flex-col overflow-y-auto no-scrollbar scroll-smooth">
+      <section id="home" className="h-full shrink-0 sticky top-0 no-scrollbar">
         <Title scrollY={scrollY} containerHeight={containerHeight} />
       </section>
-      <section id="about" className="h-full shrink-0 overflow-y-auto no-scrollbar">
-        <div className="h-full w-full">test</div>
+      <section id="about" className="h-full shrink-0 no-scrollbar">
+        <About scrollY={scrollY} containerHeight={containerHeight} />
       </section>
-      <section id="about" className="h-full shrink-0 overflow-y-auto no-scrollbar">
+      <section id="about" className="h-full shrink-0 no-scrollbar">
         <div className="h-full w-full">test</div>
       </section>
     </div>

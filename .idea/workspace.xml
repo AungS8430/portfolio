@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added description and responsive design for the title and sidebar">
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Removed smooth animation as it looks better without">
+      <change afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/scrollpane.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollpane.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/title.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,12 @@
   </component>
   <component name="CopilotUserSelectedChatMode">
     <option name="chatModeId" value="Ask" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="Auto" />
+    </selectedModels>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -112,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774511002633</updated>
       <workItem from="1774511003812" duration="20694000" />
-      <workItem from="1774584627062" duration="7631000" />
+      <workItem from="1774584627062" duration="20492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -138,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774595175582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved scroll progress and container height variable to the scroll pane">
+      <option name="closed" value="true" />
+      <created>1774597410583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774597410583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed smooth animation as it looks better without">
+      <option name="closed" value="true" />
+      <created>1774598051854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774598051854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +171,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added background image, fonts, sidebar and the header, which includes the scrolling animation" />
     <MESSAGE value="Added description and responsive design for the title and sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added description and responsive design for the title and sidebar" />
+    <MESSAGE value="Moved scroll progress and container height variable to the scroll pane" />
+    <MESSAGE value="Removed smooth animation as it looks better without" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed smooth animation as it looks better without" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
