@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added about page">
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Made the about section mobile responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/scrollpane.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollpane.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/title.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1774511002633</updated>
       <workItem from="1774511003812" duration="20694000" />
-      <workItem from="1774584627062" duration="23610000" />
+      <workItem from="1774584627062" duration="25507000" />
+      <workItem from="1774679098158" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774616840794</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made the about section mobile responsive">
+      <option name="closed" value="true" />
+      <created>1774621107815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774621107815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +189,8 @@
     <MESSAGE value="Moved scroll progress and container height variable to the scroll pane" />
     <MESSAGE value="Removed smooth animation as it looks better without" />
     <MESSAGE value="Added about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added about page" />
+    <MESSAGE value="Made the about section mobile responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the about section mobile responsive" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
