@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added projects section">
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Improved the projects section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,8 @@
       <workItem from="1774511003812" duration="20694000" />
       <workItem from="1774584627062" duration="25507000" />
       <workItem from="1774679098158" duration="14839000" />
-      <workItem from="1775136534185" duration="14245000" />
+      <workItem from="1775136534185" duration="21747000" />
+      <workItem from="1775989985302" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774706922171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Improved the projects section">
+      <option name="closed" value="true" />
+      <created>1775369162301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775369162301</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +218,8 @@
     <MESSAGE value="Made the about section mobile responsive" />
     <MESSAGE value="Changed the sticky behavior in the about section" />
     <MESSAGE value="Added projects section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added projects section" />
+    <MESSAGE value="Improved the projects section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved the projects section" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
