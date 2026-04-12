@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.x.x",
+  "packageManager": "pnpm@10.27.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
