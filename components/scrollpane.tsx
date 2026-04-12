@@ -7,6 +7,7 @@ import {
 import Title from "@/components/title";
 import About from "@/components/about";
 import Projects from "@/components/projects";
+import Education from "@/components/education";
 
 export default function ScrollPane() {
   const [containerHeight, setContainerHeight] = useState(350);
@@ -34,6 +35,9 @@ export default function ScrollPane() {
       </section>
       <section id="about" className="h-full shrink-0 no-scrollbar p-4 sm:p-8">
         <About scrollY={scrollY} containerHeight={containerHeight} />
+      </section>
+      <section id="education" className="h-full shrink-0 no-scrollbar p-4 sm:p-8">
+        <Education scrollY={scrollY} containerHeight={containerHeight} />
       </section>
       <section id="projects" className="h-full shrink-0 no-scrollbar">
         <Projects containerRef={containerRef} />
