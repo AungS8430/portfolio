@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "name": "schooler",
+      "description": "Schooler is a web application that allows students to easily access resources and information.",
+      "repo": "https://www.github.com/AungS8430/schooler",
+      "live": "https://schooler.aungs.dev/"
+    },
+    {
+      "name": "formulistic1",
+      "description": "Web application that shows past Formula 1 statistics.",
+      "repo": "https://www.github.com/AungS8430/formulistic1",
+      "live": "https://formulistic1.aungs.dev/"
+    },
+    {
+      "name": "palplay",
+      "description": "PalPlay is a music-based social media application.",
+      "repo": "https://www.github.com/AungS8430/palplay",
+      "live": "https://palplay.aungs.dev/"
+    },
+    {
+      "name": "kotoboss",
+      "description": "Web based flashcard app with FSRS support.",
+      "repo": "https://www.github.com/AungS8430/kotoboss",
+      "live": "https://kotoboss.aungs.dev/"
+    },
+    {
+      "name": "aungs.dev",
+      "description": "My personal website built with React and Tailwind CSS.",
+      "repo": "https://www.github.com/AungS8430/portfolio",
+      "live": "https://aungs.dev/"
+    },
+    {
+      "name": "whereTfIsMyPip",
+      "description": "GUI package manager for Python. Or simply GUI for PIP.",
+      "repo": "https://www.github.com/AungS8430/whereTfIsMyPip"
+    },
+    {
+      "name": "wordgames.py",
+      "description": "A python module that allow users to play singleplayer and multiplayer games inside a terminal. Built as a project with some of my friends.",
+      "repo": "https://www.github.com/AungS8430/wordgames.py"
+    },
+    {
+      "name": "Musicallied",
+      "description": "Discord.js bot written in Node.js, its purpose is to update users with top charts, lyrics, artists, and more!",
+      "repo": "https://www.github.com/AungS8430/Musicallied"
+    },
+    {
+      "name": "Suankularb Website",
+      "description": "A prototype of Suankularb Wittayalai School website built in collaboration with my friends.",
+      "repo": "https://www.github.com/suankularb-website-project/main",
+      "live": "https://suankularb.aungs.eu.org/"
+    },
+    {
+      "name": "RecipeLookup",
+      "description": " A web application that helps you find and plan healthy meals.",
+      "repo": "https://github.com/AungS8430/RecipeLookup",
+      "live": "https://recipe-lookup.aungs.dev/"
+    }
+  ]
+}

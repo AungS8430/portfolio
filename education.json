@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "degree": "Associate Degree(On-going)",
+      "department": "Department of Information, Communication and Electronic Engineering",
+      "institution": "National Institute of Technology, Kumamoto College",
+      "start": 2026,
+      "end": 2029
+    },
+    {
+      "degree": "Associate Degree(Transferred)",
+      "department": "Computer Engineering Department",
+      "institution": "KOSEN-KMITL(KING MONGKUT’S INSTITUTE OF TECHNOLOGY LADKRABANG)",
+      "start": 2024,
+      "end": 2026
+    },
+    {
+      "degree": "High School Diploma",
+      "department": "Gifted and Talented Education Program",
+      "institution": "Suankularb Wittayalai School",
+      "start": 2021,
+      "end": 2024
+    }
+  ]
+}

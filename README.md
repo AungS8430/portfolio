@@ -1,31 +1,36 @@
-# AungS8430's Portfolio Website
-Portfolio website for AungS8430, fell free to use and customise this. Leaving credits will also helps me a lot!
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## How to Use
+## Getting Started
 
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run the development server
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## License
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Licensed under the [MIT license](https://github.com/AungS8430/portfolio/blob/main/LICENSE).
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Credits
+## Learn More
 
-* [React](https://react.dev/) Open-source front-end JavaScript library for building UI based on components.
-* [Next.js](https://nextjs.org/) Web development framework based on React, built by Vercel.
-* [Tailwind CSS](https://tailwindcss.com/) CSS framework that allows developers to use CSS properties directly inside HTML.
-* [NextUI](https://nextui.org/) Beautiful, fast and modern React UI library.
-* [NextJs Simple Typewriter](https://github.com/SoloReverse/nextjs-simple-typewriter) Fork of [React Simple Typewriter](https://github.com/awran5/react-simple-typewriter) with Next.js compability.
-* [Icons8](https://icons8.com/) Provider of icons used in this website, this includes [Fiverr](https://icons8.com/icon/14h574ySQ7kG/fiverr).
-* [Iconfinder](https://www.iconfinder.com/) Provider of 3d illustrations used in this website.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

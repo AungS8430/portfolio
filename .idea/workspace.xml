@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added app title and favicon.ico" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/aungs8430/WebstormProjects/portfolio" value="3BTRJbcTtbWbY1qPtBfb0hVLRmd" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Ask" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AungS8430&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AungS8430/portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;8c28e4c2-49c8-4d93-a2e4-f02a8c019a81&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3BTRJbcTtbWbY1qPtBfb0hVLRmd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "development",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/aungs8430/WebstormProjects/portfolio/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/aungs8430/WebstormProjects/portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/fonts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/api/v1/sendMessage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="" />
+      <created>1774511002633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774511002633</updated>
+      <workItem from="1774511003812" duration="20694000" />
+      <workItem from="1774584627062" duration="25507000" />
+      <workItem from="1774679098158" duration="14839000" />
+      <workItem from="1775136534185" duration="21747000" />
+      <workItem from="1775989985302" duration="5118000" />
+      <workItem from="1776312051317" duration="14121000" />
+      <workItem from="1776685545604" duration="6871000" />
+      <workItem from="1776735548996" duration="4856000" />
+      <workItem from="1776780053776" duration="2000" />
+      <workItem from="1776781295486" duration="2022000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1774512431665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774512431665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added background image, fonts, sidebar and the header, which includes the scrolling animation">
+      <option name="closed" value="true" />
+      <created>1774533256811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774533256811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added description and responsive design for the title and sidebar">
+      <option name="closed" value="true" />
+      <created>1774595175582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774595175582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Moved scroll progress and container height variable to the scroll pane">
+      <option name="closed" value="true" />
+      <created>1774597410583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774597410583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed smooth animation as it looks better without">
+      <option name="closed" value="true" />
+      <created>1774598051854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774598051854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added about page">
+      <option name="closed" value="true" />
+      <created>1774616840794</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616840794</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Made the about section mobile responsive">
+      <option name="closed" value="true" />
+      <created>1774621107815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774621107815</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed the sticky behavior in the about section">
+      <option name="closed" value="true" />
+      <created>1774680250103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774680250103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added projects section">
+      <option name="closed" value="true" />
+      <created>1774706922171</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774706922171</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Improved the projects section">
+      <option name="closed" value="true" />
+      <created>1775369162301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775369162301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated about">
+      <option name="closed" value="true" />
+      <created>1775990306352</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775990306353</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added education section">
+      <option name="closed" value="true" />
+      <created>1775993160392</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775993160392</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated packages">
+      <option name="closed" value="true" />
+      <created>1775994345733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994345733</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Specified pnpm version">
+      <option name="closed" value="true" />
+      <created>1775994435773</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994435773</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Deleted pnpm-workspace.yaml">
+      <option name="closed" value="true" />
+      <created>1775994498289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994498289</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added contact page">
+      <option name="closed" value="true" />
+      <created>1776782787187</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1776782787187</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added app title and favicon.ico">
+      <option name="closed" value="true" />
+      <created>1776783034298</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1776783034298</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added background image, fonts, sidebar and the header, which includes the scrolling animation" />
+    <MESSAGE value="Added description and responsive design for the title and sidebar" />
+    <MESSAGE value="Moved scroll progress and container height variable to the scroll pane" />
+    <MESSAGE value="Removed smooth animation as it looks better without" />
+    <MESSAGE value="Added about page" />
+    <MESSAGE value="Made the about section mobile responsive" />
+    <MESSAGE value="Changed the sticky behavior in the about section" />
+    <MESSAGE value="Added projects section" />
+    <MESSAGE value="Improved the projects section" />
+    <MESSAGE value="Updated about" />
+    <MESSAGE value="Added education section" />
+    <MESSAGE value="Updated packages" />
+    <MESSAGE value="Specified pnpm version" />
+    <MESSAGE value="Deleted pnpm-workspace.yaml" />
+    <MESSAGE value="Added contact page" />
+    <MESSAGE value="Added app title and favicon.ico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added app title and favicon.ico" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
