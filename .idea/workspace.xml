@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added education section">
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added contact page">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/sendMessage/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/template.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/scrollpane.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollpane.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
@@ -87,6 +92,9 @@
       <recent name="$PROJECT_DIR$/app/fonts" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/api/v1/sendMessage" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
@@ -121,7 +129,12 @@
       <workItem from="1774584627062" duration="25507000" />
       <workItem from="1774679098158" duration="14839000" />
       <workItem from="1775136534185" duration="21747000" />
-      <workItem from="1775989985302" duration="4236000" />
+      <workItem from="1775989985302" duration="5118000" />
+      <workItem from="1776312051317" duration="14121000" />
+      <workItem from="1776685545604" duration="6871000" />
+      <workItem from="1776735548996" duration="4856000" />
+      <workItem from="1776780053776" duration="2000" />
+      <workItem from="1776781295486" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -219,7 +232,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775993160392</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated packages">
+      <option name="closed" value="true" />
+      <created>1775994345733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994345733</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Specified pnpm version">
+      <option name="closed" value="true" />
+      <created>1775994435773</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994435773</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Deleted pnpm-workspace.yaml">
+      <option name="closed" value="true" />
+      <created>1775994498289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775994498289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +275,11 @@
     <MESSAGE value="Improved the projects section" />
     <MESSAGE value="Updated about" />
     <MESSAGE value="Added education section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added education section" />
+    <MESSAGE value="Updated packages" />
+    <MESSAGE value="Specified pnpm version" />
+    <MESSAGE value="Deleted pnpm-workspace.yaml" />
+    <MESSAGE value="Added contact page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added contact page" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
