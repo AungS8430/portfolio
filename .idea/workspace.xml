@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added contact page">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/sendMessage/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/template.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/scrollpane.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollpane.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added contact page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +125,7 @@
       <workItem from="1776685545604" duration="6871000" />
       <workItem from="1776735548996" duration="4856000" />
       <workItem from="1776780053776" duration="2000" />
-      <workItem from="1776781295486" duration="1186000" />
+      <workItem from="1776781295486" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -256,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775994498289</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added contact page">
+      <option name="closed" value="true" />
+      <created>1776782787187</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1776782787187</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
