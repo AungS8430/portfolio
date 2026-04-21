@@ -4,7 +4,7 @@ import { ConfirmTemplate, ForwardTemplate } from "@/components/template";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest) {
   const { email, name, message } = await req.json();
 
   if (!email || !name || !message) {
