@@ -31,7 +31,8 @@ export default function ScrollPane() {
 
   return (
     <div ref={containerRef} className="w-full h-full min-h-0 flex flex-col overflow-y-auto no-scrollbar scroll-smooth">
-      <section id="home" className="h-full shrink-0 sticky top-0 no-scrollbar p-4 sm:p-8">
+      <section id="home" className="h-0!" />
+      <section className="h-full shrink-0 sticky top-0 no-scrollbar p-4 sm:p-8">
         <Title scrollY={scrollY} containerHeight={containerHeight} />
       </section>
       <section id="about" className="h-full shrink-0 no-scrollbar p-4 sm:p-8">

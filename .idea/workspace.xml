@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Added app title and favicon.ico" />
+    <list default="true" id="bba055ed-3357-4475-8446-0101ce3b4ccf" name="Changes" comment="Fixed home section link in the sidebar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +126,7 @@
       <workItem from="1776685545604" duration="6871000" />
       <workItem from="1776735548996" duration="4856000" />
       <workItem from="1776780053776" duration="2000" />
-      <workItem from="1776781295486" duration="2022000" />
+      <workItem from="1776781295486" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -264,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776783034298</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Removed res from POST response">
+      <option name="closed" value="true" />
+      <created>1776783475936</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1776783475936</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed home section link in the sidebar">
+      <option name="closed" value="true" />
+      <created>1776784117463</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1776784117463</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +304,9 @@
     <MESSAGE value="Deleted pnpm-workspace.yaml" />
     <MESSAGE value="Added contact page" />
     <MESSAGE value="Added app title and favicon.ico" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added app title and favicon.ico" />
+    <MESSAGE value="Removed res from POST response" />
+    <MESSAGE value="Fixed home section link in the sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed home section link in the sidebar" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
