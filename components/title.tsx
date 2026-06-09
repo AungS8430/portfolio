@@ -45,7 +45,7 @@ export default function Title({ scrollY, containerHeight }: { scrollY: MotionVal
           }
         }
       >
-        A computer engineering student at KOSEN-KMITL<br />Finding source of the light, with the lines of logic
+        An engineering student at National College of Technology, Kumamoto College<br />Finding source of the light, with the lines of logic
       </motion.p>
       <motion.h1
         ref={titleRef}
