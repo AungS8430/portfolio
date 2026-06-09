@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "deeper",
+      "description": "A VSCode extension that increase productivity by only focusing on the current tasks.",
+      "repo": "https://www.github.com/AungS8430/deeper",
+      "live": "https://marketplace.visualstudio.com/items?itemName=AungS8430.deeper"
+    },
+    {
       "name": "schooler",
       "description": "Schooler is a web application that allows students to easily access resources and information.",
       "repo": "https://www.github.com/AungS8430/schooler",
